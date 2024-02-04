@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahani Bistro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: peachpuff; /* Changed background color to peach */
+            text-align: center;
+        }
+        .logo {
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        .logo img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Applied a different font to the title */
+        }
+        p {
+            color: #666;
+        }
+        .menu-item {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: lightblue; /* Changed menu block color to light blue */
+            width: 300px;
+            margin: 20px auto;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item h2 {
+            color: #333;
+        }
+        .price {
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="https://dummyimage.com/200x200/ccc/fff&text=Sahani+Bistro" alt="Sahani Bistro Logo">
+    </div>
+    <h1>Welcome to Sahani Bistro</h1>
+    <p>Your destination for exquisite dining experiences</p>
+
+    <div class="menu-item">
+        <h2>Chapati</h2>
+        <p class="price">Price: Ksh 25</p>
+    </div>
+    <div class="menu-item">
+        <h2>Tea</h2>
+        <p class="price">Price: Ksh 50</p>
+    </div>
+    <div class="menu-item">
+        <h2>Coffee</h2>
+        <p class="price">Price: Ksh 200</p>
+    </div>
+    <div class="menu-item">
+        <h2>Fish</h2>
+        <p class="price">Price: Ksh 300</p>
+    </div>
+    <div class="menu-item">
+        <h2>Ugali</h2>
+        <p class="price">Price: Ksh 100</p>
+    </div>
+    <div class="menu-item">
+        <h2>Nyama Choma</h2>
+        <p class="price">Price: Ksh 600</p>
+    </div>
+    <div class="menu-item">
+        <h2>Stewed Meat</h2>
+        <p class="price">Price: Ksh 400</p>
+    </div>
+    <div class="menu-item">
+        <h2>Pilau</h2>
+        <p class="price">Price: Ksh 250</p>
+    </div>
+    <div class="menu-item">
+        <h2>Mukimo</h2>
+        <p class="price">Price: Ksh 150</p>
+    </div>
+    <div class="menu-item">
+        <h2>Sukuma Wiki</h2>
+        <p class="price">Price: Ksh 80</p>
+    </div>
+</body>
+</html>
+
